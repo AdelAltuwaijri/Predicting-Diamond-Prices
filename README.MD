@@ -15,6 +15,13 @@ All numbers that will be presented in this Nanodegree program will be based on t
 A diamond distributor has recently decided to exit the market and has put up a set of 3,000 diamonds up for auction. Seeing this as a great opportunity to expand its inventory, a jewelry company has shown interest in making a bid. To decide how much to bid, the company’s analytics team used a large database of diamond prices to build a linear regression model to predict the price of a diamond based on its attributes. You, as the business analysts, are tasked to apply that model to make a recommendation for how much the company should bid for the entire set of 3,000 diamonds.
 The following diagram represents the analysis at a high level. Since the model is already built, your analysis will focus on the right side of the diagram.
 
-
 ![solution diagram](images/solutiondiagram.PNG) *sulution diagram*
 
+The linear regression model provides an equation that you can use to predict diamond prices for the set of 3,000 diamonds. The equation is below:
+
+**Price** = -5,269 + 8,413 x **Carat** + 158.1 x **Cut** + 454 x **Clarity**
+
+**Step 1 – Understand the data:** There are two datasets.
+
+-	**diamonds.csv** contains the data used to build the regression model.
+-	**new_diamonds.csv** contains the data for the diamonds the company would like to purchase.
