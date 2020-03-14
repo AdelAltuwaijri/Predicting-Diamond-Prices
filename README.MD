@@ -16,5 +16,5 @@ A diamond distributor has recently decided to exit the market and has put up a s
 The following diagram represents the analysis at a high level. Since the model is already built, your analysis will focus on the right side of the diagram.
 
 
-![Semantic description of image](../images/solutiondiagram.png)
+![solution diagram](images/solutiondiagram.PNG) *sulution diagram*
 
