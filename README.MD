@@ -25,3 +25,15 @@ The linear regression model provides an equation that you can use to predict dia
 
 -	**diamonds.csv** contains the data used to build the regression model.
 -	**new_diamonds.csv** contains the data for the diamonds the company would like to purchase.
+
+![Data sample](images/datasample.png) 
+
+Both datasets contain carat, cut, and clarity data for each diamond. Only the diamonds.csv dataset has prices. You'll be predicting prices for the new_diamonds.csv dataset.
+-	Carat represents the weight of the diamond, and is a numerical variable.
+-	Cut represents the quality of the cut of the diamond, and falls into 5 categories: fair, good, very good, ideal, and premium. Each of these categories are represented by a number, 1-5, in the Cut_Ord variable.
+-	Clarity represents the internal purity of the diamond, and falls into 8 categories: I1, SI2, SI1, VS1, VS2, VVS2, VVS1, and IF. Each of these categories are represented by a number, 1-8, in the Clarity_Ord variable.
+- **Note:** Transforming category variables to ordinal variables like this is not always appropriate, but we’ve done it here for simplicity.
+
+**Step 2 – Calculate the predicted price for diamond:** For each diamond, plug in the values for each of the variables into the linear model (equation). Then solve the equation to get the estimated, or predicted, diamond price. We suggest using a spreadsheet tool like Excel, Numbers, or Google Sheets. You could also do it in Alteryx and/or Tableau if you already have a license. If you don't have a license yet, you'll receive one after your free trial.
+
+**Step 3 – Make a recommendation:** Now that you have the predicted price for each diamond, it’s time to calculate the bid price for the whole set. Note: The diamond price that the model predicts represents the final retail price the consumer will pay. The company generally purchases diamonds from distributors at 70% of that price, so your recommended bid price should represent that.
